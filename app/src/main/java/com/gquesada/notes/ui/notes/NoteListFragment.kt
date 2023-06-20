@@ -69,4 +69,9 @@ class NoteListFragment : Fragment() {
         Toast.makeText(context, "${noteModel.title} was clicked", Toast.LENGTH_LONG).show()
         // Todo remove item
     }
+
+    private fun onButtonClicked() {
+        Toast.makeText(context, "Hola", Toast.LENGTH_LONG).show()
+        // Todo remove item
+    }
 }
